@@ -22,7 +22,7 @@ img{max-width:100%;}
 /*end reset*/
 /****-----start-body----****/
 body{
-	background:url(../images/bg1.png) no-repeat 0px 0px; 
+	background:url("../images/bg1.png") no-repeat 0px 0px; 
  	font-family: 'Roboto', sans-serif;
  	background-size:cover;
  	-webkit-background-size:cover;
@@ -38,10 +38,10 @@ h1 {
 }
 h1 span{
 	font-weight:100;
-	margin-top: 1em;
+	margin-left: 10px;
 }
 .login-box {
-	background: url("../images/signup_back.png") no-repeat 0px 0px;
+	background: url(../images/signup_back.png) no-repeat 0px 0px;
 	width: 510px;
 	height: 177px;
 	padding: 3em;
@@ -154,10 +154,6 @@ input[type="submit"]:hover {
 }
 /*--start-responsive-design--*/
 @media (max-width:1024px){
-	h1 {
-		font-size: 3em;
-		padding-top: 2em;
-	}
 	.remember {
 		width: 60%;
 	}
@@ -182,18 +178,13 @@ input[type="submit"]:hover {
 		padding:0;
 	}
 	h1 {
-	  font-size: 2.5em;
-  padding-top: 1.3em;
+	  padding-top: 6em;
 	}
 	.copy-right p {
 	  padding: 12em 0 3.21em;
 	}
 }
 @media (max-width:640px){
-	h1 {
-	  font-size: 2em;
-  padding-top: 1em;
-	}
 	.remember {
 		width: 63%;
 		padding: 3em 0 0 10em;
@@ -204,8 +195,8 @@ input[type="submit"]:hover {
 }
 @media (max-width:480px){
 	h1 {
-	  font-size: 1.8em;
-	  padding-top: 1em;
+	  font-size: 2.4em;
+	  padding-top: 4em;
 	}
 	.login-box {
 		width: 400px;
@@ -258,8 +249,8 @@ input[type="submit"]:hover {
 	  padding: 9em 0 2em;
 	}
 	h1 {
-	  font-size: 1.5em;
-	    padding-top: 1em;
+	  font-size: 2em;
+	    padding-top: 3em;
 	}
 	body {
 	  min-height: 603px;
@@ -316,8 +307,8 @@ input[type="submit"]:hover {
 	  font-size: 14px;
  	}
  	h1 {
-	  font-size: 1.2em;
-	  padding-top: 1em;
+	  font-size: 1.4em;
+	  padding-top: 3em;
 	}
 	.remember a p {
 		  font-size: 13px;
